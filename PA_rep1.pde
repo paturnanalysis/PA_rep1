@@ -36,3 +36,5 @@ void draw() {
 }
 
 //init
+//init higashi
+
