@@ -27,6 +27,7 @@ void setup() {
   for (int i = 0, x = 0, y = 0; i < picNumber; i++, x++) {   
     if (i!=0 && i%7==0){
       y++;
+      x=0;
     }
     image(pics[i], x*WIDTH/7, y*HEIGHT/7, WIDTH/7, HEIGHT/7);
   }
@@ -34,7 +35,3 @@ void setup() {
 
 void draw() {
 }
-
-//init
-//init higashi
-//kusa
